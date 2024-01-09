@@ -20,7 +20,7 @@
     {% if filename %}
     <h2>Uploaded Image:</h2>
 
-    <img src="{{ url_for('uploaded_file', filename=filename, _external=True) }}" alt="Uploaded Image">
+    <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Uploaded Image">
 
     <h2>Prediction Result:</h2>
 
