@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification App</title>
+</head>
+
+<body>
+
+    <h1>Image Classification App</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Choose an image:</label>
+        <input type="file" name="file" accept=".jpg, .jpeg, .png, .gif" required>
+        <input type="submit" value="Upload and Predict">
+    </form>
+
+    {% if filename %}
+    <h2>Uploaded Image:</h2>
+
+    <img src="{{ url_for('uploaded_file', filename=filename, _external=True) }}" alt="Uploaded Image">
+
+    <h2>Prediction Result:</h2>
+
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+
+</html>
