@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 5000
 
+RUN cd web
+
 CMD [ "python", "-m", "flask", "run" ]
