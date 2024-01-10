@@ -2,7 +2,7 @@
 
 > 2024/1/10
 
-[![pF9P7FJ.png](https://s11.ax1x.com/2024/01/10/pF9P7FJ.png)](https://imgse.com/i/pF9P7FJ)
+[![pF9P7FJ.png](https://s11.ax1x.com/2024/01/10/pF9P7FJ.png)](https://imgse.com/i/pF9P7FJ#pic_center)
 
 ### Example shown
 
