@@ -5,10 +5,11 @@ import torch
 from torchvision import transforms
 from PIL import Image
 
-device = 'cpu'
+torch.cuda.is_available = lambda : False
+device = torch.device('cpu')
 
 model_path = os.path.join('..', 'model', 'demo_resnet18')
-model = torch.load(model_path).to(device)
+model = torch.load(model_path, map_location=device)
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
@@ -35,7 +36,7 @@ def MyPredict(image_path):
     # Load and transform the single image
     
     image = Image.open(image_path)
-    input_image = normal_transforms(image).to(device)
+    input_image = normal_transforms(image)
     input_image = input_image.unsqueeze(0)  # Add a batch dimension
 
     # Make prediction
