@@ -14,4 +14,4 @@ EXPOSE 5000
 
 WORKDIR /ResnetWebApp/web
 
-CMD [ "python", "-m", "flask", "run" ]
+CMD [ "python", "-m", "flask", "run", "--host=0.0.0.0" ]
