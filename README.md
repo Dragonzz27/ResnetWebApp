@@ -2,15 +2,22 @@
 
 > 2024/1/10
 
-[![pF9P7FJ.png](https://s11.ax1x.com/2024/01/10/pF9P7FJ.png)](https://imgse.com/i/pF9P7FJ#pic_center)
+[![pF9P7FJ.png](https://s11.ax1x.com/2024/01/10/pF9P7FJ.png)](https://imgse.com/i/pF9P7FJ)
+
+---
 
 ### Example shown
 
-choose a picture to upload from local and submit.
+1. choose a picture to upload from local and submit.
+
 [![pF9i7B8.png](https://s11.ax1x.com/2024/01/10/pF9i7B8.png)](https://imgse.com/i/pF9i7B8)
 
-the picture you upload will be shown and prediction result will also be given.
-[![pF9iqAg.png](https://s11.ax1x.com/2024/01/10/pF9iqAg.png)](https://imgse.com/i/pF9iqAg)
+
+2. the picture you upload will be shown and prediction result will also be given.
+
+[![pF9knRs.png](https://s11.ax1x.com/2024/01/10/pF9knRs.png)](https://imgse.com/i/pF9knRs)
+
+---
 
 ### Use Docker to run the project(recommended)
 
@@ -117,8 +124,12 @@ run **/web/app.py** to launch a website where you can upload picutres and get an
 
 **Notice: you should run /web/app.py under the folder /web, these some bugs with this**
 
+---
+
 ###  Web url for the data
 [Datasets On Kaggle](https://www.kaggle.com/datasets/sharumaan/semimages-299x299)
+
+---
 
 ### Where does the idea come from
 I watch the [video](https://www.bilibili.com/video/BV1Tb4y1j7iY/), and it interests me.

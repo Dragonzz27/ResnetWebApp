@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+    {% if not filename %}
     <h1>Image Classification App</h1>
 
     <form action="/upload" method="post" enctype="multipart/form-data">
@@ -16,6 +16,7 @@
         <input type="file" name="file" accept=".jpg, .jpeg, .png, .gif" required>
         <input type="submit" value="Upload and Predict">
     </form>
+    {% endif %}
 
     {% if filename %}
     <h2>Uploaded Image:</h2>
